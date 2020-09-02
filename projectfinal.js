@@ -26,3 +26,5 @@ app.post('/register/',(req,res,next)=>{
             console.log("[MYSQL ERROR]",err);
 
         });
+    });
+});
